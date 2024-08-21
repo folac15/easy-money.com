@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conversion - International & National Bank Linker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Currency Conversion</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="register.html">Register</a>
+    <a href="convert.html">Currency Conversion</a>
+    <a href="transaction.html">Send/Receive Money</a>
+    <a href="banks.html">Link Banks</a>
+    <a href="admin.html">Admin</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section id="convert" class="container">
+    <h2>Currency Conversion</h2>
+    <p>Select currencies to convert:</p>
+    <form>
+        <label for="from_currency">From:</label>
+        <select id="from_currency" name="from_currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="XAF">XAF</option>
+        </select>
+
+        <label for="to_currency">To:</label>
+        <select id="to_currency" name="to_currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="XAF">XAF</option>
+        </select>
+
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter amount">
+
+        <input type="submit" value="Convert" class="btn">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 International & National Bank Linker. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
